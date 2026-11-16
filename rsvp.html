@@ -1,0 +1,75 @@
+
+<!--
+Name: Aiman Akbar
+Roll Number: 26i-3209
+Section: BSE-1D
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RSVP - Welcome Party</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="schedule-body">
+
+    <div class="schedule-container">
+
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="rsvp.html">RSVP</a>
+        </nav>
+
+        <p class="small">WELCOME PARTY 2026</p>
+
+        <h1>RSVP FORM</h1>
+
+        <p class="schedule-message">
+            We would love to have you join us!
+            Please fill out the form below to confirm your attendance.
+        </p>
+
+        <div class="schedule-info">
+            <p><b>Date:</b> 29 December 2026</p>
+            <p><b>Time:</b> 4:00 PM</p>
+            <p><b>Venue:</b> University Ground</p>
+        </div>
+
+        <form class="rsvp-form" onsubmit="submitRSVP(event)">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your full name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests"
+                   min="1" placeholder="Enter number of guests" required>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+        <p class="footer">We can't wait to see you!</p>
+
+    </div>
+
+    <script>
+        function submitRSVP(event) {
+            event.preventDefault();
+
+            let guestName = document.getElementById("name").value;
+
+            alert("Thank you, " + guestName +
+                  "! Your RSVP has been received. We look forward to seeing you!");
+
+        }
+    </script>
+
+</body>
+</html>
