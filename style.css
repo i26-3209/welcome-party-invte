@@ -185,3 +185,40 @@ button:hover {
     width: 100%;
     font-size: 15px;
 }
+
+
+/* Venue Page */
+
+.venue-card {
+    background-color: #f5eedf;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    color: #14243a;
+}
+
+.venue-card h2 {
+    color: #14243a;
+}
+
+.venue-card p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.venue-note {
+    border: 2px solid #c49a45;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.venue-note h2 {
+    color: #14243a;
+}
+
+.venue-note p {
+    color: #555;
+    line-height: 1.6;
+}
+
