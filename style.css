@@ -69,3 +69,84 @@ button:hover {
     object-fit: cover;
     border-radius: 10px;
 }
+
+
+/* Navigation Bar */
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.navigation a {
+    color: #14243a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.navigation a:hover {
+    color: #c49a45;
+}
+
+/* Schedule Page */
+.schedule-body {
+    display: block;
+    padding: 30px 15px;
+    box-sizing: border-box;
+}
+
+.schedule-container {
+    background-color: white;
+    border: 3px solid #c49a45;
+    padding: 35px;
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.schedule-message {
+    color: #555;
+    line-height: 1.6;
+}
+
+.schedule-info {
+    background-color: #f5eedf;
+    padding: 12px;
+    margin: 20px 0;
+    color: #14243a;
+}
+
+.schedule-container h2 {
+    color: #14243a;
+}
+
+.timeline {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.timeline-item {
+    border-left: 3px solid #c49a45;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+}
+
+.timeline-item h3 {
+    color: #14243a;
+    margin-bottom: 8px;
+}
+
+.timeline-item p {
+    color: #555;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 500px) {
+    .schedule-container {
+        padding: 20px;
+    }
+}
