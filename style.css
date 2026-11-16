@@ -1,0 +1,71 @@
+/*Name: Aiman Akbar
+Roll Number: 26i-3209
+Section: BSE-1D
+*/
+
+
+
+
+body {
+    background-color: #f5eedf;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.invitation {
+    background-color: white;
+    border: 3px solid #c49a45;
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.small {
+    color: #c49a45;
+    letter-spacing: 3px;
+}
+
+h1 {
+    color: #14243a;
+    font-size: 35px;
+}
+
+.message {
+    color: #555;
+    line-height: 1.6;
+}
+
+.details {
+    background-color: #f5eedf;
+    padding: 15px;
+    margin: 20px 0;
+    color: #14243a;
+}
+
+button {
+    background-color: #14243a;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #c49a45;
+}
+
+.footer {
+    color: #c49a45;
+}
+.party-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
